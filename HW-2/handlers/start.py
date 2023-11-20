@@ -54,7 +54,7 @@ async def shop(callback: types.CallbackQuery):
         ]
     )
 
-    await callback.message.answer(
+    msg = await callback.message.answer(
         'Выберите категорию',
         reply_markup=kb
     )
