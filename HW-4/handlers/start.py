@@ -1,7 +1,6 @@
 from aiogram import Router, types
 from aiogram.filters import Command
 from db import *
-import pandas as pd
 
 start_router = Router()
 table = ''
