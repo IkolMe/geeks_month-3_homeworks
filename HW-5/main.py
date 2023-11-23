@@ -1,6 +1,5 @@
 import asyncio
 from bot import bot, dp
-from handlers import *
 
 
 async def main():
